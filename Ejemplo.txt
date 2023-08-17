@@ -1,0 +1,12 @@
+package ejercicio1lab1;
+public class Ejercicio1Lab1 {
+    public static void main(String[] args) {
+     Robot robot = new Robot();
+        
+        Hombre hombre1 = new Hombre();
+        hombre1.JugarConRobot(robot);
+        
+        Hombre hombre2 = new Hombre();
+        hombre2.JugarConRobot(robot);
+    }
+}
